@@ -51,3 +51,5 @@ Version 1.5: lowered greeting and clock; moved date and world clocks below the a
 Version 1.7: Home returns to viewport-centered alignment. The wallpaper is reframed with a 64-pixel reflected right-edge extension; the original JPEG remains unchanged. All other features and storage keys are unchanged.
 
 Version 1.8: removes the reflected wallpaper extension. Home and clean wallpaper use the original HD JPEG with proportional overscan and subject-axis centering. Some outer-edge cropping is necessary to fill the viewport. Interface geometry, application logic, permissions and storage keys are unchanged.
+
+Event Horizon v1.10 — Web Edition
