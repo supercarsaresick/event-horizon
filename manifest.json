@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Event Horizon \u2014 Workstation",
+  "version": "1.10.0",
+  "description": "Local-first new tab for goals, execution, research and browser workflows.",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": [
+    "storage",
+    "tabs",
+    "alarms",
+    "notifications"
+  ],
+  "optional_permissions": [
+    "bookmarks",
+    "history"
+  ],
+  "background": {
+    "service_worker": "worker.js"
+  },
+  "icons": {
+    "128": "assets/icon.png"
+  }
+}
